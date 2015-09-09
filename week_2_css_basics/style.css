@@ -10,6 +10,8 @@ body{
 	margin-right: auto;
 	border: #CCCCCC 4px solid;
 }
+
+
 h1{
 	text-align: center;
 	color: #FFFFFF;
@@ -24,18 +26,32 @@ h2{
 	font-family: "Helvetica", "Arial", sans-serif;
 	margin: 30px 0px 20px 30px;
 }
+h3{
+	text-align: left;
+	color: #B4B7B8;
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-size: 15px;
+}
+.right-border {
+	border-right: #CCCCCC 2px solid;
+	padding: 0px 10px 0px 0px;
+	display: inline;
+	color: #FFFFFF;
+	}
 
-ul{
+.navs{
 	padding: 10px;
 	text-align: center;
 	font-weight: 400;
 	font-size: 17px;
 	font-family: "Helvetica", "Arial", sans-serif;
+	display: inline;
+	color: #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 li{
-	display: inline;
-	color: #FFFFFF;
 	padding: 0 5px 0 5px;
 
 }
@@ -43,15 +59,24 @@ a{
 	color: #45E6B8;
 }
 
-.right-border {
-	border-right: #CCCCCC 2px solid;
+
+.bullets{
+	list-style-type: square;
+	color: #FFFFFF;
+}
+
+.inline{
+		display: inline;
+		text-align: center;
+		margin-right: auto;
+		margin-left: auto;
 	}
 .divider{
 	border: #CCCCCC 1px solid;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
-p{
+.prose{
 	color: #FFFFFF;
 	font-size: 17px;
 	text-align: left;
@@ -67,5 +92,25 @@ img{
 	border: #CCCCCC 1px solid;
 }
 
+.bold{
+	font-weight: bold;
+	font-family: "Helvetica","Arial", sans-serif;
+}
+.bolds{
+	font-weight: bold;
+}
+.sans-gray{
+	font-family: "Helvetica", "Arial", sans-serif;
+	color: #B4B7B8;
+	font-size: 12px;
+}
+.sans-white{
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-size: 14px;
+}
+.serif-gray{
+	font-family: "Georgia", "Times New Roman", serif;
+	color: #B4B7B8;
+}
 
 
