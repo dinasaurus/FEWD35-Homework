@@ -53,19 +53,21 @@ max-width: 85%;
   overflow: hidden;
   position: relative;
   height: 1200px;
+  max-width: 1000px;
 }
 
 .75 {
   overflow: hidden;
   float: left;
-  width: 75%;
+  width: 70%;
   margin: 40px 40px 40px 40px;
   padding: 40px 40px 40px 40px;
   color: #fff;
-}
+  text-align: left;
+} 
 
 .25 {
-  float: left;
+  float: right;
   width: 25%;
 }
 
@@ -74,16 +76,14 @@ max-width: 85%;
 }
 
 .container75 {
-  width: 500px;
   float: left;
-  width: 75%;
+  width: 70%;
   color: #4c4c4c;
   font-weight: 100;
 }
 
 .container25 {
-  width: 250px;
-  float: left;
+  float: right;
   width: 25%;
   position: relative;
 }
@@ -107,7 +107,7 @@ max-width: 85%;
   color: #d9342c;
   text-align: right;
   float: right;
-  margin: 10px 10px 230px 10px;
+  margin: 10px 10px 10px 10px;
 }
 
 hr {
@@ -116,6 +116,7 @@ hr {
   border: 0;
   border-top: 1px solid #ccc;
   margin: 60px 0px 30px 0px;
+  clear: both;
 }
 
 div.container4 {
@@ -192,6 +193,10 @@ span{
   color: #c5c5c5;
   font-weight: 100;
 }
-p {
-  max-width: 95%;
+
+#bigletter{
+  height: 25px;
+  width: 25px;
+  float: left;
+  font-size: 90px;
 }
